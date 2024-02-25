@@ -17,6 +17,11 @@
 - [References](#references)
 ### Project Overview
 This project is aimed at harnessing the powers of K Nearest Neighbors (KNN) algorithm to predict the Target Class based off of a data set whose features are classified.
+
+![pairplot1](https://github.com/easu978/KNN_project/assets/151114298/a476ad01-9fd1-4578-8a17-3be0f1b0dd49)
+![lineplot](https://github.com/easu978/KNN_project/assets/151114298/79449e83-d729-4ef7-8a3e-02108c027011)
+
+
 ### Data Sources
 KNN_Project_Data: The data used for this analysis is the "KNN_Project_Data.csv" file, and it contains the information needed to carry out the classification task, without necessarily knowing what each feature stands for.
 ### Tools
