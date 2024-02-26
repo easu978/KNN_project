@@ -1,20 +1,22 @@
 # KNN_Project_Data
 
 ## Table of Contents
-- [Project Overview](#project-overview)
-- [Data Sources](#data-sources)
-- [Tools](#tools)
-- [Data Cleaning/Preparation](#data-cleaning/preparation)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Data Analysis](#data-analysis)
-- [Train Test Split](#train-test-split)
-- [Model Training](#model-training)
-- [Predictions](#predictions)
-- [Model Evaluation](#model-evaluation)
-- [Results/Findings](#results/findings)
-- [Recommendations](#recommendations)
-- [Limitations](#limitations)
-- [References](#references)
+- [KNN\_Project\_Data](#knn_project_data)
+  - [Table of Contents](#table-of-contents)
+    - [Project Overview](#project-overview)
+    - [Data Sources](#data-sources)
+    - [Tools](#tools)
+    - [Data Cleaning/Preparation](#data-cleaningpreparation)
+    - [Exploratory Data Analysis](#exploratory-data-analysis)
+    - [Data Analysis](#data-analysis)
+    - [Train Test Split](#train-test-split)
+    - [Model Training](#model-training)
+    - [Predictions](#predictions)
+    - [Model Evaluation](#model-evaluation)
+    - [Results/Findings](#resultsfindings)
+    - [Recommendations](#recommendations)
+    - [Limitations](#limitations)
+    - [References](#references)
 ### Project Overview
 This project is aimed at harnessing the powers of K Nearest Neighbors (KNN) algorithm to predict the Target Class based off of a data set whose features are classified.
 
@@ -84,7 +86,7 @@ In order to improve on the model's performance, the following can be done:
 1. Aggregate the predictions, except for those that equal the y_test, into a list
 2. call the list in (1) above, Error_rate
 3. consider a range of values for K higher than 1(say,K=23,31), and re-train the model accordingly
-4. plot a simple lineplot of Error_rate vs K-values.
+4. plot a simple lineplot of Error_rate vs K-values(see plots attached).
 ```python
 Error_rate = []
 
