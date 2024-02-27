@@ -90,7 +90,7 @@ In order to improve on the model's performance, the following can be done:
 ```python
 Error_rate = []
 
-for i in range(1,50):
+for i in range(1,40):
     knn = KNeighborsClassifier(n_neighbors=i)
     knn.fit(X_train,y_train)
     pred_i = knn.predict(X_test)
